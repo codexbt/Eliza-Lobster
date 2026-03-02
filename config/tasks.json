@@ -1,0 +1,136 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Share Eliza Lobster on Twitter",
+      "description": "Create and share a tweet about Eliza Lobster with #ElizaLobster and #Solana hashtags. Include a link to the GitHub repository.",
+      "reward": 10,
+      "rewardToken": "USDC",
+      "category": "social",
+      "difficulty": "easy",
+      "timeLimit": 1440,
+      "isActive": true,
+      "requirements": [
+        "Twitter/X account required",
+        "Account must be at least 2 weeks old",
+        "Minimum 50 followers"
+      ],
+      "verification": "manual"
+    },
+    {
+      "id": "2",
+      "title": "Deploy Eliza Lobster to Railway",
+      "description": "Successfully deploy Eliza Lobster to Railway.app and provide deployment URL. Server must be running and respond to health check.",
+      "reward": 50,
+      "rewardToken": "SOL",
+      "category": "development",
+      "difficulty": "medium",
+      "timeLimit": 7200,
+      "isActive": true,
+      "requirements": [
+        "Railway.app account",
+        "GitHub repository access",
+        "Valid Solana RPC endpoint"
+      ],
+      "verification": "automatic"
+    },
+    {
+      "id": "3",
+      "title": "Create Tutorial Content",
+      "description": "Write a comprehensive tutorial on how to set up and use Eliza Lobster. Can be blog post, medium article, or YouTube video.",
+      "reward": 100,
+      "rewardToken": "USDC",
+      "category": "content",
+      "difficulty": "hard",
+      "timeLimit": 10080,
+      "isActive": true,
+      "requirements": [
+        "Minimum 1000 words or 5 minute video",
+        "Must cover installation and API usage",
+        "Public link required"
+      ],
+      "verification": "manual"
+    },
+    {
+      "id": "4",
+      "title": "Find and Report Security Issues",
+      "description": "Audit the code for security vulnerabilities and submit responsible disclosure report with detailed findings.",
+      "reward": 75,
+      "rewardToken": "SOL",
+      "category": "development",
+      "difficulty": "hard",
+      "timeLimit": 14400,
+      "isActive": true,
+      "requirements": [
+        "Security audit expertise",
+        "Detailed vulnerability report",
+        "No public disclosure until patch released"
+      ],
+      "verification": "manual"
+    },
+    {
+      "id": "5",
+      "title": "Improve Documentation",
+      "description": "Submit pull request improving documentation, API examples, or deployment guides. Must be merged by maintainers.",
+      "reward": 25,
+      "rewardToken": "USDC",
+      "category": "content",
+      "difficulty": "medium",
+      "timeLimit": 7200,
+      "isActive": true,
+      "requirements": [
+        "GitHub account",
+        "Clear and well-written improvements",
+        "PR must be merged"
+      ],
+      "verification": "manual"
+    }
+  ],
+  "categories": [
+    {
+      "name": "social",
+      "description": "Social media and community engagement tasks",
+      "icon": "twitter"
+    },
+    {
+      "name": "development",
+      "description": "Development and technical implementation tasks",
+      "icon": "code"
+    },
+    {
+      "name": "content",
+      "description": "Content creation and documentation tasks",
+      "icon": "file"
+    },
+    {
+      "name": "design",
+      "description": "Design and UX/UI tasks",
+      "icon": "palette"
+    },
+    {
+      "name": "testing",
+      "description": "Testing and quality assurance tasks",
+      "icon": "check"
+    }
+  ],
+  "difficulties": [
+    {
+      "level": "easy",
+      "description": "Beginner friendly, 1-2 hours",
+      "minReward": 5,
+      "maxReward": 20
+    },
+    {
+      "level": "medium",
+      "description": "Intermediate, 2-4 hours",
+      "minReward": 20,
+      "maxReward": 75
+    },
+    {
+      "level": "hard",
+      "description": "Advanced, 4+ hours",
+      "minReward": 75,
+      "maxReward": 500
+    }
+  ]
+}

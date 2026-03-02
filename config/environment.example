@@ -1,0 +1,49 @@
+# Eliza Lobster - Environment Configuration
+# Copy this file to .env and fill in your actual values
+
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+LOG_LEVEL=debug
+
+# Solana Configuration
+SOLANA_RPC=https://api.devnet.solana.com
+# SOLANA_RPC=https://api.mainnet-beta.solana.com
+
+# Treasury Wallet (BS58 encoded private key)
+# Generate with: solana-keygen new --no-bip39-passphrase
+# Then extract: solana config get
+TREASURY_PRIVATE_KEY=your_base58_encoded_private_key_here
+
+# USDC Token Configuration
+# Devnet USDC Mint: EPjFWaJgt2qwvtskZCp6Tjut6zoxPT2bUy714NoWQww
+# Mainnet USDC Mint: EPjFWaJgt2qwvtskZCp6Tjut6zoxPT2bUy714NoWQww
+USDC_MINT=EPjFWaJgt2qwvtskZCp6Tjut6zoxPT2bUy714NoWQww
+
+# Bounty Configuration
+MIN_REWARD_AMOUNT=0.1
+MAX_REWARD_AMOUNT=1000
+BOUNTY_EXPIRATION_DAYS=30
+
+# Security
+ALLOW_ORIGINS=http://localhost:3000,http://localhost:3001
+API_KEY_REQUIRED=false
+# API_KEY=your_api_key_here
+
+# Database (optional, for future upgrades)
+# DATABASE_URL=postgresql://user:password@localhost:5432/eliza_lobster
+# MONGODB_URI=mongodb://localhost:27017/eliza_lobster
+
+# Analytics (optional)
+# SENTRY_DSN=https://key@sentry.io/project-id
+# MIXPANEL_TOKEN=your_token_here
+
+# Webhooks (optional, for external notifications)
+# WEBHOOK_URL=https://your-domain.com/webhook/bounty-completed
+# WEBHOOK_SECRET=your_webhook_secret
+
+# Feature Flags
+FEATURE_USDC_PAYOUTS=true
+FEATURE_DYNAMIC_REWARDS=false
+FEATURE_STAKING=false
+FEATURE_LEADERBOARD=false
