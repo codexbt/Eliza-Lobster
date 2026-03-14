@@ -2,6 +2,8 @@
 
 A sophisticated AI agent built on **ElizaOS** that assigns crypto bounties and automates payouts on the **Solana blockchain**. Eliza Lobster operates as a crypto-native bounty master, distributing rewards through SPL tokens (SOL and USDC) while maintaining complete transparency and security.
 
+CA : 3y9BBL8Msh4XmtFLLUDquPa1o7wqy5TXdbPKSc3rpump
+
 ---
 
 ## 📋 Table of Contents
