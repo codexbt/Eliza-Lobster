@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HermesClaw Bot + Dashboard Unified Launcher (Cross-Platform)
+"""Kairos Bot + Dashboard Unified Launcher (Cross-Platform)
 
 Usage:
     python run_unified.py
@@ -31,7 +31,7 @@ def run_command(cmd, shell=True):
 
 def main():
     print("\n" + "="*60)
-    print("HermesClaw: Bot + Dashboard Unified Launcher")
+    print("Kairos: Bot + Dashboard Unified Launcher")
     print("="*60 + "\n")
     
     # Change to script directory
@@ -75,7 +75,7 @@ def main():
     print("[1/3] Starting FastAPI Backend (http://localhost:8001)...")
     backend_cmd = "python -m uvicorn backend.dashboard_api:app --host 0.0.0.0 --port 8001 --reload --reload-dir backend --reload-dir core --reload-dir hermes"
     if platform.system() == "Windows":
-        subprocess.Popen(f'start "HermesClaw Backend" cmd /k {backend_cmd}', shell=True)
+        subprocess.Popen(f'start "Kairos Backend" cmd /k {backend_cmd}', shell=True)
     else:
         subprocess.Popen(backend_cmd, shell=True)
     
@@ -94,7 +94,7 @@ def main():
     # Start dashboard
     dashboard_cmd = f"cd {dashboard_dir} && npm run dev"
     if platform.system() == "Windows":
-        subprocess.Popen(f'start "HermesClaw Dashboard" cmd /k {dashboard_cmd}', shell=True)
+        subprocess.Popen(f'start "Kairos Dashboard" cmd /k {dashboard_cmd}', shell=True)
     else:
         subprocess.Popen(dashboard_cmd, shell=True)
     
@@ -104,7 +104,7 @@ def main():
     print("[3/3] Starting Bot/Swarm Orchestrator...")
     bot_cmd = "python bot_orchestrator.py"
     if platform.system() == "Windows":
-        subprocess.Popen(f'start "HermesClaw Bot" cmd /k {bot_cmd}', shell=True)
+        subprocess.Popen(f'start "Kairos Bot" cmd /k {bot_cmd}', shell=True)
     else:
         subprocess.Popen(bot_cmd, shell=True)
     

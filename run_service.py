@@ -1,5 +1,5 @@
 """run_service.py
-Production-ready entry point for running HermesClaw Bot as a Windows Service (via NSSM)
+Production-ready entry point for running Kairos Bot as a Windows Service (via NSSM)
 or Linux systemd, or Task Scheduler.
 
 Features:
@@ -10,7 +10,7 @@ Features:
 
 Usage:
   1. Install NSSM: https://nssm.cc/
-  2. nssm install HermesClawBot
+  2. nssm install KairosBot
      Path: python.exe
      Arguments: D:\hermes\run_service.py
      Startup dir: D:\hermes
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     if hasattr(signal, "SIGTERM"):
         signal.signal(signal.SIGTERM, handle_signal)
 
-    print("[run_service] HermesClaw Multi-Platform Bot starting as service...")
+    print("[run_service] Kairos Multi-Platform Bot starting as service...")
     print("Logs: logs/bot.log")
     print("To stop: use service manager or Ctrl+C")
 

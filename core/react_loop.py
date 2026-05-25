@@ -23,7 +23,7 @@ logger = logging.getLogger("core.react")
 class ReactLoop:
     """Production ReAct engine with tool use, memory, safety, and iteration limits."""
 
-    DEFAULT_SYSTEM = """You are Kairos, an autonomous local coding agent inside the HermesClaw swarm.
+    DEFAULT_SYSTEM = """You are Kairos, an autonomous local coding agent inside the Kairos swarm.
 You have access to powerful local tools.
 Always follow this exact format for every response:
 

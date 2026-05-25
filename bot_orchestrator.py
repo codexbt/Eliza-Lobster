@@ -1,5 +1,5 @@
 """bot_orchestrator.py
-Central multi-platform bot orchestrator for HermesClaw.
+Central multi-platform bot orchestrator for Kairos.
 
 - Loads messaging tokens from config.yaml or .env
 - Registers Telegram, Discord, WhatsApp handlers
@@ -29,7 +29,7 @@ from typing import Any, Optional
 import yaml
 from dotenv import load_dotenv
 
-# Core HermesClaw (never modify these imports or the folders)
+# Core Kairos (never modify these imports or the folders)
 from agents.orchestrator import run_swarm
 from core.kairos_daemon import KairosDaemon
 from core.react_loop import get_react_loop
@@ -373,7 +373,7 @@ async def on_incoming_message(msg: Message):
 
 async def run_bot_forever():
     """The main always-running bot service."""
-    logger.info("=== HermesClaw Multi-Platform Bot Starting ===")
+    logger.info("=== Kairos Multi-Platform Bot Starting ===")
 
     cfg = config
     allowed = cfg.allowed_users
@@ -433,7 +433,7 @@ except ImportError:
     FastAPI = None
 
 if FastAPI:
-    dashboard_app = FastAPI(title="HermesClaw Bot Dashboard", version="1.0")
+    dashboard_app = FastAPI(title="Kairos Bot Dashboard", version="1.0")
 
     class GoalRequest(BaseModel):
         goal: str

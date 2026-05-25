@@ -38,7 +38,7 @@ export const useStore = create<StoreState>((set) => ({
   selectedAgentDetails: null,
   setSelectedAgentDetails: (agent) => set({ selectedAgentDetails: agent }),
   
-  terminalLogs: ['[SYSTEM] HermesClaw 3D Dashboard initialized'],
+  terminalLogs: ['[SYSTEM] Kairos 3D Dashboard initialized'],
   addLog: (log) =>
     set((state) => ({
       terminalLogs: [...state.terminalLogs.slice(-49), log], // Keep last 50

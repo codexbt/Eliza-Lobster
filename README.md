@@ -1,4 +1,4 @@
-# HermesClaw (Kairos-Hermes Swarm)
+# Kairos (Kairos-Hermes Swarm)
 
 **Local-first, self-hosted, autonomous multi-agent coding swarm.**
 
@@ -155,7 +155,7 @@ All ReAct loops, agent calls, and direct `make_llm_call` now go through the unif
 
 ## 📱 Multi-Platform Bot Control (Telegram + Discord + WhatsApp + 24/7 Service)
 
-Control your entire HermesClaw swarm from your phone or Discord server — no need to be at the terminal.
+Control your entire Kairos swarm from your phone or Discord server — no need to be at the terminal.
 
 ### Quick Start
 
@@ -208,7 +208,7 @@ Control your entire HermesClaw swarm from your phone or Discord server — no ne
 - **Production Windows Service (recommended)**:
   Use [NSSM](https://nssm.cc/)
   ```
-  nssm install HermesClawBot
+  nssm install KairosBot
   Path: C:\Python311\python.exe
   Arguments: D:\hermes\run_service.py
   ```

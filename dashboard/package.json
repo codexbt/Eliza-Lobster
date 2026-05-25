@@ -10,20 +10,20 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "@react-three/drei": "^9.121.0",
-    "@react-three/fiber": "^8.18.0",
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.1.0",
     "framer-motion": "^11.18.0",
     "lucide-react": "^0.479.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "three": "^0.173.0",
+    "three": "^0.175.0",
     "zustand": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@types/three": "^0.173.0",
+    "@types/three": "^0.175.0",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.1",

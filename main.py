@@ -1,5 +1,5 @@
 """main.py
-HermesClaw / Kairos-Hermes Swarm - Unified CLI entry point.
+Kairos - Unified CLI entry point.
 Usage examples:
   python main.py --help
   python main.py swarm "..."
@@ -39,7 +39,7 @@ console = Console()
 def banner():
     console.print(
         Panel.fit(
-            "[bold cyan]HermesClaw[/bold cyan]  •  [bold magenta]Kairos-Hermes Swarm[/bold magenta]\n"
+            "[bold cyan]Kairos[/bold cyan]  •  [bold magenta]Kairos-Hermes Swarm[/bold magenta]\n"
             "Local-first • Self-hosted • Autonomous Multi-Agent Coding System",
             border_style="bright_blue",
         )
@@ -198,7 +198,7 @@ def cmd_bot(_args):
     """Launch the always-running multi-platform bot (Telegram + Discord + WhatsApp)."""
     banner()
     console.print(Panel(
-        "[bold green]Starting HermesClaw Bot Orchestrator[/bold green]\n\n"
+        "[bold green]Starting Kairos Bot Orchestrator[/bold green]\n\n"
         "Listening on all configured platforms.\n"
         "Use /goal in chat • /status • /kairos on/off • /help\n\n"
         "Logs: logs/bot.log\n"
@@ -266,7 +266,7 @@ def cmd_doctor(_args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="HermesClaw / Kairos-Hermes Swarm")
+    parser = argparse.ArgumentParser(description="Kairos - Kairos-Hermes Swarm")
     sub = parser.add_subparsers(dest="command")
 
     # swarm

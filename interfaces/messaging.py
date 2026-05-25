@@ -1,5 +1,5 @@
 """interfaces/messaging.py
-Unified Messaging Interface for HermesClaw multi-platform bots.
+Unified Messaging Interface for Kairos multi-platform bots.
 
 Provides:
 - Command parsing (/goal, /status, /kairos, etc.)

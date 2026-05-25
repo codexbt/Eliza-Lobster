@@ -1,6 +1,6 @@
 @echo off
 REM ============================================================
-REM HermesClaw Bot + 3D Dashboard (Unified Launcher)
+REM Kairos Bot + 3D Dashboard (Unified Launcher)
 REM Run both bot and dashboard simultaneously with one command
 REM ============================================================
 REM Usage: run_bot_and_dashboard.bat
@@ -21,7 +21,7 @@ cd /d "%~dp0"
 
 echo.
 echo ============================================================
-echo HermesClaw: Bot + Dashboard Unified Launcher
+echo Kairos: Bot + Dashboard Unified Launcher
 echo ============================================================
 echo.
 
@@ -68,7 +68,7 @@ echo Starting Services...
 echo ============================================================
 echo.
 echo ^[1/3^] Starting FastAPI Backend (http://localhost:8001)...
-start "HermesClaw Backend" cmd /k "python -m uvicorn backend.dashboard_api:app --host 0.0.0.0 --port 8001 --reload --reload-dir backend --reload-dir core --reload-dir hermes"
+start "Kairos Backend" cmd /k "python -m uvicorn backend.dashboard_api:app --host 0.0.0.0 --port 8001 --reload --reload-dir backend --reload-dir core --reload-dir hermes"
 
 echo ^[2/3^] Starting KAIROS Dashboard (http://localhost:3000)...
 
@@ -76,14 +76,14 @@ set DASHBOARD_DIR=dashboard
 
 REM Important: Make sure you have run "cd dashboard && npm install --legacy-peer-deps" at least once
 
-start "HermesClaw Dashboard" cmd /k "cd /d %~dp0\%DASHBOARD_DIR% && npm run dev"
+start "Kairos Dashboard" cmd /k "cd /d %~dp0\%DASHBOARD_DIR% && npm run dev"
 
 REM [3/3] Bot is disabled for now (fake tokens causing errors).
 REM To enable later, put real tokens in config.yaml or .env and uncomment the lines below.
 
 REM echo ^[3/3^] Starting Bot/Swarm Orchestrator...
 REM timeout /t 3 /nobreak
-REM start "HermesClaw Bot" cmd /k "python bot_orchestrator.py"
+REM start "Kairos Bot" cmd /k "python bot_orchestrator.py"
 
 echo.
 echo ============================================================
@@ -106,9 +106,9 @@ pause >nul
 
 echo Stopping all services...
 
-taskkill /FI "WINDOWTITLE eq HermesClaw Backend*" /F >nul 2>&1
-taskkill /FI "WINDOWTITLE eq HermesClaw Dashboard*" /F >nul 2>&1
-REM taskkill /FI "WINDOWTITLE eq HermesClaw Bot*" /F >nul 2>&1
+taskkill /FI "WINDOWTITLE eq Kairos Backend*" /F >nul 2>&1
+taskkill /FI "WINDOWTITLE eq Kairos Dashboard*" /F >nul 2>&1
+REM taskkill /FI "WINDOWTITLE eq Kairos Bot*" /F >nul 2>&1
 
 echo All services stopped.
 timeout /t 2 >nul

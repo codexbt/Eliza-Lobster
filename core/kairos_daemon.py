@@ -1,7 +1,7 @@
 """core/kairos_daemon.py
 KAIROS - Autonomous background swarm daemon.
 Every N minutes it wakes up, scans the repo for issues, and proposes/fixes small problems
-using the full HermesClaw stack (ReAct + multi-agent swarm when needed).
+using the full Kairos stack (ReAct + multi-agent swarm when needed).
 All actions respect the safety approval system by default.
 
 Run with:

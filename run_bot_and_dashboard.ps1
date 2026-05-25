@@ -1,5 +1,5 @@
 # ============================================================
-# HermesClaw Bot + Dashboard Unified Launcher (PowerShell)
+# Kairos Bot + Dashboard Unified Launcher (PowerShell)
 # ============================================================
 # Usage: .\run_bot_and_dashboard.ps1
 #
@@ -22,7 +22,7 @@ $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $ScriptDir
 
 Write-Host "`n============================================================"
-Write-Host "HermesClaw: Bot + Dashboard Unified Launcher" -ForegroundColor Cyan
+Write-Host "Kairos: Bot + Dashboard Unified Launcher" -ForegroundColor Cyan
 Write-Host "============================================================`n"
 
 # Create .env from .env.example

@@ -1,7 +1,7 @@
 """core/dashboard_events.py
 Global event broadcaster for real-time 3D dashboard updates.
 
-Allows any part of HermesClaw (orchestrator, agents, kairos) to emit events
+Allows any part of Kairos (orchestrator, agents, kairos) to emit events
 that get WebSocket-broadcasted to all connected 3D dashboards in real-time.
 
 Usage:

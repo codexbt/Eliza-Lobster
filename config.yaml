@@ -1,4 +1,4 @@
-# HermesClaw / Kairos-Hermes Swarm
+# Kairos / Kairos-Hermes Swarm
 # Multi-provider LLM support (Ollama local + remote via API keys)
 #
 # Use:  python main.py llm     → interactive selector with auto model fetch on key entry

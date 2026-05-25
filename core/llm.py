@@ -1,5 +1,5 @@
 """core/llm.py
-Multi-provider LLM abstraction for HermesClaw.
+Multi-provider LLM abstraction for Kairos.
 Supports:
 - Ollama (local, no key)
 - Any OpenAI-compatible API (OpenAI, Groq, xAI/Grok, DeepSeek, Together.ai, Fireworks, etc.)

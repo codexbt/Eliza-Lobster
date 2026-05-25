@@ -1,6 +1,6 @@
 @echo off
 REM run_dashboard.bat
-REM Starts the HermesClaw 3D Futuristic Dashboard
+REM Starts the Kairos 3D Futuristic Dashboard
 REM Windows batch script for easy one-click startup
 
 setlocal enabledelayedexpansion

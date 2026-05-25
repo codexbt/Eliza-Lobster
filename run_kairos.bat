@@ -5,7 +5,7 @@ cd /d "%~dp0"
 echo.
 echo ============================================
 echo   Starting KAIROS Autonomous Daemon
-echo   HermesClaw / Kairos-Hermes Swarm
+echo   Kairos / Kairos-Hermes Swarm
 echo ============================================
 echo.
 

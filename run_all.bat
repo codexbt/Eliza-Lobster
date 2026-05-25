@@ -1,6 +1,6 @@
 @echo off
 REM run_all.bat
-REM Comprehensive startup for full HermesClaw system with 3D Dashboard
+REM Comprehensive startup for full Kairos system with 3D Dashboard
 REM Windows batch script
 
 setlocal enabledelayedexpansion

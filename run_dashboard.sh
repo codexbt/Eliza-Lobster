@@ -1,6 +1,6 @@
 #!/bin/bash
 # run_dashboard.sh
-# Starts the HermesClaw 3D Futuristic Dashboard
+# Starts the Kairos 3D Futuristic Dashboard
 # Linux/Mac bash script for easy startup
 
 echo ""

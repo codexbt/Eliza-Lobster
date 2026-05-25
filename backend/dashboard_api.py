@@ -1,5 +1,5 @@
 """backend/dashboard_api.py
-Futuristic 3D Dashboard Backend for HermesClaw.
+Futuristic 3D Dashboard Backend for Kairos.
 
 - FastAPI + WebSocket for real-time agent status
 - Broadcasts live updates from multi-agent swarm
@@ -348,7 +348,7 @@ async def simulate_agent_activity():
 # --- Startup ---
 @app.on_event("startup")
 async def startup_event():
-    logger.info("🚀 HermesClaw 3D Futuristic Dashboard API starting...")
+    logger.info("🚀 Kairos 3D Futuristic Dashboard API starting...")
     
     # Register event broadcaster to push to WebSocket clients
     broadcaster = get_broadcaster()

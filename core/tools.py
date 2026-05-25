@@ -1,4 +1,4 @@
-"""HermesClaw core/tools.py
+"""Kairos core/tools.py
 Production-grade local tool harness inspired by Claw-Code.
 All operations are:
 - confined to project_root (path escape prevention)
