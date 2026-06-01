@@ -14,3 +14,5 @@ python -m core.kairos_daemon %*
 echo.
 echo KAIROS daemon exited.
 pause
+
+

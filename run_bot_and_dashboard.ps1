@@ -109,3 +109,5 @@ if (-not $NoWait) {
 }
 
 Write-Host "Launcher closing. Services continue running in their windows.`n"
+
+

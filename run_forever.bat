@@ -18,3 +18,5 @@ python bot_orchestrator.py >> logs\bot.log 2>&1
 echo [%date% %time%] Bot exited (crash or stop). Restarting in 5 seconds...
 timeout /t 5 >nul
 goto loop
+
+

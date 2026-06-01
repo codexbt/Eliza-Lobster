@@ -112,3 +112,5 @@ REM taskkill /FI "WINDOWTITLE eq Kairos Bot*" /F >nul 2>&1
 
 echo All services stopped.
 timeout /t 2 >nul
+
+
