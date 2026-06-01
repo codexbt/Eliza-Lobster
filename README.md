@@ -1,4 +1,4 @@
-# Kairos (Kairos-Hermes Swarm)
+# Kairos (Kairos-Swarm)
 
 **Local-first, self-hosted, autonomous multi-agent coding swarm.**
 
